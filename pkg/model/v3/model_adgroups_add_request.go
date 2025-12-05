@@ -76,6 +76,7 @@ type AdgroupsAddRequest struct {
 	SmartDeliveryPlatform                  *DeliveryScene              `json:"smart_delivery_platform,omitempty"`
 	SmartDeliveryAigcCreative              *SmartDeliveryAutoCreative  `json:"smart_delivery_aigc_creative,omitempty"`
 	SmartDeliveryHistoryCompReusedCreative *SmartDeliveryAutoCreative  `json:"smart_delivery_history_comp_reused_creative,omitempty"`
+	SmartDeliverySceneSpec                 *SmartDeliverySceneSpec     `json:"smart_delivery_scene_spec,omitempty"`
 }
 
 type SmartDeliveryAutoCreative struct {
